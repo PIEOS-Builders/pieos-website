@@ -2,7 +2,7 @@
 anchor: "Community"
 header: "Get involved in PIEOS community"
 subheader: ""
-telegram: https://t.me/PIEOS
-telegramLink: https://t.me/PIEOS
+telegram: https://t.me/PIEOSio
+telegramLink: https://t.me/PIEOSio
 email: contact@pieos.io
 ---

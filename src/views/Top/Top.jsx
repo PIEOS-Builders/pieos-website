@@ -19,7 +19,7 @@ const Top = ({ frontmatter }) => {
   if (jumpToAnchor && jumpToAnchorText) {
     extraInfoPart = (
       <>
-        <Button size="lg" variant="dark" className="text-uppercase" onClick={scrollToSection} href={jumpToAnchor} target="_blank">
+        <Button size="m" variant="outline-light" className="text-uppercase" onClick={scrollToSection} href={jumpToAnchor} target="_blank">
           <Icon iconName="FilePdfIcon" inverse size="1x"/> &nbsp;
           {jumpToAnchorText}
         </Button><br/><br/>
