@@ -13,9 +13,9 @@ cd "${BASEDIR}/.."
 gatsby clean
 gatsby build
 
-export AWS_ACCESS_KEY_ID=`cat ./deploy/PROD_S3_AWS_ACCESS_KEY_ID`
-export AWS_SECRET_ACCESS_KEY=`cat ./deploy/PROD_S3_AWS_SECRET_ACCESS_KEY`
-export AWS_DEFAULT_REGION=`cat ./deploy/PROD_S3_AWS_DEFAULT_REGION`
+export AWS_ACCESS_KEY_ID=`cat ${BASEDIR}/PROD_S3_AWS_ACCESS_KEY_ID`
+export AWS_SECRET_ACCESS_KEY=`cat ${BASEDIR}/PROD_S3_AWS_SECRET_ACCESS_KEY`
+export AWS_DEFAULT_REGION=`cat ${BASEDIR}/PROD_S3_AWS_DEFAULT_REGION`
 
 echo "${red}Do you want to deploy [PIEOSWebSite][Production]?${reset}"
 echo "write YES to proceed deploy process"
@@ -26,7 +26,7 @@ fi
 
 echo "${red}[PIEOSWebSite]${green}[Production]${reset} starting s3 bucket sync"
 
-aws s3 sync ./public/ s3://pieos.io/ --exclude "documents/*" --delete
+aws s3 sync ${BASEDIR}/../public/ s3://pieos.io/ --exclude "documents/*" --delete
 
 echo "${red}[PIEOSWebSite]${green}[Production]${reset} s3 bucket sync finished"
 
