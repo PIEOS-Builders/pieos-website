@@ -1,8 +1,8 @@
 ---
 copyright: "2020 PIEOS Builders"
 social: {
+  github: "https://github.com/PIEOS-Builders",
   twitter: "#",
-  facebook: "#",
   medium: "#"
 }
 privacyText: "Privacy Policy"

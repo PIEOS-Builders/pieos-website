@@ -60,9 +60,7 @@ export const query = graphql`
             imageFileName
           }
           social {
-            facebook
             github
-            linkedin
             medium
             twitter
           }
