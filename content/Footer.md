@@ -1,7 +1,7 @@
 ---
 copyright: "2020 PIEOS Builders"
 social: {
-  github: "https://github.com/PIEOS-Builders",
+  github: "PIEOS-Builders",
   twitter: "#",
   medium: "#"
 }
