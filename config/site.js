@@ -12,7 +12,7 @@ module.exports = {
   ],
   description: "PIEOS - crypto-backed stablecoin PIE providing optional privacy-protecting transaction feature and interest-bearing savings accounts on EOSIO blockchain",
   author: "pieos-pi",
-  trackingId: "UA-172431084-1",
+  trackingId: "UA-172440769-1",
   defaultLang: "en",
   langTextMap: {
     en: "English",
