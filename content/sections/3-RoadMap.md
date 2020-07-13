@@ -7,7 +7,7 @@ timeline: [
     imageFileName: "timeline/01.jpg",
     header: "May, 2020",
     subheader: "Founding PIEOS Builders",
-    content: "Organizing PIEOS Development Team"
+    content: "Organizing Initial PIEOS Development Team"
   },
   {
     imageFileName: "timeline/02.png",
