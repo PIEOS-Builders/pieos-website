@@ -1,0 +1,20 @@
+// Styling for the stakecoinoffering section
+.pieos-dapp-icon {
+  width: 130px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+.sco-description {
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: italic;
+  @include serif-font;
+}
+
+.sco-notice {
+  font-size: 11px;
+  line-height: 110%;
+  font-style: italic;
+}

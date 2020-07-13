@@ -24,7 +24,7 @@ const Contact = ({ className, frontmatter }) => {
       <Row>
         <Col lg={4} className="ml-auto text-center mb-4">
           <Icon iconName="TelegramIcon" size="4x" className="text-primary mb-3" />
-          <a className="d-block" href={`${telegramLink}`}>
+          <a className="d-block" href={`${telegramLink}`} target="_blank" rel="noopener noreferrer">
             {telegram}
           </a>
         </Col>

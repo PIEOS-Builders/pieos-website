@@ -6,5 +6,5 @@ imageFileName: "header-bg.jpg"
 jumpToAnchor: "https://pieos.io/documents/PIEOS-Whitepaper-v1.0.pdf"
 jumpToAnchorText: "WHITEPAPER"
 jumpToAnchor2: "https://app.pieos.io"
-jumpToAnchorText2: "Participate in PIEOS SCO"
+jumpToAnchorText2: "PIEOS Dapp"
 ---
