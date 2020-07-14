@@ -1,7 +1,7 @@
 ---
 anchor: "Overview"
 header: "PIEOS Overview"
-subheader: "PIE, crypto-backed stablecoin providing interest-bearing savings accounts and optional privacy-protecting transaction features on EOSIO blockchain"
+subheader: "PIE, crypto-backed stablecoin providing optional privacy-protecting transaction features and interest-bearing savings accounts on EOSIO blockchain"
 services: [
   {
     iconName: "ChartPieIcon",

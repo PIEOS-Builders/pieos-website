@@ -1,12 +1,15 @@
 const path = require("path");
-const { title, keywords, description, author, defaultLang, trackingId } = require("./config/site");
+const { title, keywords, description, url, image, author, twitterUsername, defaultLang, trackingId } = require("./config/site");
 
 module.exports = {
   siteMetadata: {
     title,
     keywords,
     description,
+    url,
+    image,
     author,
+    twitterUsername,
   },
   plugins: [
     {
@@ -19,7 +22,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: title,
-        short_name: "Agency",
+        short_name: "PIEOS",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#fed136",

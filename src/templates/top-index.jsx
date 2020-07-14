@@ -95,7 +95,7 @@ export const query = graphql`
 const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } }) => {
   const {
     site: {
-      siteMetadata: { keywords, description },
+      siteMetadata: { keywords },
     },
     allMarkdownRemark: { nodes },
   } = data;
@@ -114,7 +114,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
 
   return (
     <>
-      <SEO lang={langKey} title="PIEOS" keywords={keywords} description={description} />
+      <SEO lang={langKey} keywords={keywords} />
       <Navbar
         anchors={anchors}
         frontmatter={navBarNode.frontmatter}
